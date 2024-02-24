@@ -32,7 +32,7 @@ main:
        MOV r1, #5
        BL __aeabi_idiv  
      #Add 32 to complete conversion to F  
-       MOV r1, #32
+       MOV r1, #85
        ADD r0, r0, r1  
 
      #Print out the converted temperature
